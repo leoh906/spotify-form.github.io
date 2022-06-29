@@ -17,14 +17,13 @@
 </head>
 <body>
     <div id="form_box">
-        <h1>Spotify Query</h1> 
-        <i class="fa-brands fa-spotify"></i>
-    <form id="spotify_form">
-        <label for="artist_search">Search by Artist:</label>
+        <h1>Spotify Analytics <i class="fa-brands fa-spotify"></i></h1>   
+    </div>  
+     <form class="spotify_form">
+        <h2 class="subheadings">Search the Top Streaming Artist for a Specific Year</h2> 
+        <label for="artist_search">Search Top Artist:</label>
         <input type="text" id="artist_text" placeholder="artist name" >
-        <label for="country_search">Search by Country:</label>
-        <input type="text" id="country_text" placeholder="Country">
-        <label for="year_input">Select from the last 10 years</label>
+        <label for="year_input">Select Year</label>
         <select name="years"> 
             <option value="2022">2022</option>
             <option value="2021">2021</option>
@@ -38,7 +37,32 @@
             <option value="2013">2013</option>
             <option value="2012">2012</option>
         </select>
-        <label for="language_input">Select a language</label>
+        <button class="search_button"> Search</button>
+    </form>
+        <form class="spotify_form">
+            <h2 class="subheadings">Search the top streaming artist for a specific country in a given year</h2>
+      <label for="country_search">Search Top Artist by Country:</label>
+        <input type="text" id="country_text" placeholder="Country">
+        <label for="yearLabel">Select Year</label>
+        <select name="years"> 
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+        </select>
+        <button class="search_button">Search</button>
+        </form>
+ 
+      <form class="spotify_form">
+        <h2 class="subheadings">Search the top streaming song for a specific year</h2>
+         <label for="language_input">Select a language</label>
         <select name="languages" id="language_id">
             <option value="eng">English</option>
             <option value="jpa">Japanese</option>
@@ -47,13 +71,12 @@
             <option value="French">French</option>
             <option value="spanish">Spanish</option>
             <option value="Chinese">Chinese</option>
-            <option value="Other">Other</option>
         </select>
         <input type="submit" value="Submit">
     </form>
-    <img id="rock_concert" src="rock_concert.jpg">
+   
     </div>
-
+    <!-- <img id="rock_concert" src="rock_concert.jpg"> -->
 
     </form>
 </body>

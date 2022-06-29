@@ -8,14 +8,22 @@ body {
 
 #form_box {
     text-align: center;
-    padding: 5pt 5pt;
+    padding: 5pc 5pc;
     border-radius: 5px;
     background-color: #1db954;
     columns: 3/4;
+    
+    
 }
 
-#spotify_form {
+#subheadings {
+    color: white;
+}
+
+
+.spotify_form {
     background-color: #1db954;
+    border: #191414;
     margin: 10px;
     align-items: center;
     text-align: center;
