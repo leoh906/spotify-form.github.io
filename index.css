@@ -16,9 +16,6 @@ body {
     
 }
 
-#subheadings {
-    color: white;
-}
 
 
 .spotify_form {
@@ -37,7 +34,7 @@ body {
 size: 30px 50px;
 }
 
-#rock_concert {
+/* #rock_concert {
     height: 50pc;
     width: 50pc;
-}
+} */
